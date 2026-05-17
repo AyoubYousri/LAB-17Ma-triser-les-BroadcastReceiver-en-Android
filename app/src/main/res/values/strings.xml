@@ -1,0 +1,29 @@
+<resources>
+    <!--
+        Fichier de ressources textuelles.
+        Centraliser les chaînes de caractères permet de faciliter la traduction (internationalisation).
+        Commenté par YOUSRI Ayoub.
+    -->
+
+    <string name="app_name">Receiver Demo</string>
+
+    <!-- En-tête de l'interface -->
+    <string name="screen_tag">LAB 17</string>
+    <string name="screen_title">Broadcast Receivers</string>
+    <string name="screen_subtitle">Dynamique, statique et custom</string>
+
+    <!-- Panneau d'état -->
+    <string name="status_section">État du receiver</string>
+    <string name="receiver_type_dynamic">Mode avion - dynamique</string>
+    <string name="receiver_type_static">BOOT_COMPLETED - statique</string>
+    <string name="receiver_type_custom">CUSTOM_EVENT - explicite</string>
+
+    <!-- Messages d'état pour le Mode Avion -->
+    <string name="status_airplane_off">Receiver Mode Avion : DÉSACTIVÉ</string>
+    <string name="status_airplane_on">Receiver Mode Avion : ACTIVÉ</string>
+
+    <!-- Actions (Boutons) -->
+    <string name="action_enable_airplane">Activer Receiver Avion</string>
+    <string name="action_disable_airplane">Désactiver Receiver Avion</string>
+    <string name="action_send_custom">Envoyer Custom Broadcast</string>
+</resources>

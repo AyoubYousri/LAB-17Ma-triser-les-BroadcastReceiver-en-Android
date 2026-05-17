@@ -1,0 +1,37 @@
+<resources>
+    <!-- Thème "Midnight Neon" par YOUSRI Ayoub -->
+
+    <!-- Arrière-plan (Sombre Profond) -->
+    <color name="screen_bg_start">#0B0E14</color>
+    <color name="screen_bg_end">#1A1D23</color>
+
+    <!-- Surfaces (Cartes avec effet de profondeur) -->
+    <color name="surface">#252932</color>
+    <color name="surface_border">#3D4450</color>
+
+    <!-- Couleurs de Texte (Contraste élevé) -->
+    <color name="text_primary">#F0F6FC</color>
+    <color name="text_secondary">#8B949E</color>
+
+    <!-- Accents Neon -->
+    <color name="accent_blue">#58A6FF</color> <!-- Bleu Cyan Neon -->
+    <color name="accent_blue_pressed">#1F6FEB</color>
+    <color name="accent_teal">#3FB950</color> <!-- Vert Emeraude -->
+    <color name="accent_teal_pressed">#238636</color>
+    <color name="accent_orange">#F85149</color> <!-- Rouge Corail -->
+    <color name="accent_orange_pressed">#DA3633</color>
+
+    <!-- États de Status (Glow effect) -->
+    <color name="status_on_bg">#122C1D</color>
+    <color name="status_on_border">#3FB950</color>
+    <color name="status_on_text">#7EE787</color>
+
+    <color name="status_off_bg">#311516</color>
+    <color name="status_off_border">#F85149</color>
+    <color name="status_off_text">#FFA198</color>
+
+    <!-- Éléments UI -->
+    <color name="chip_bg">#30363D</color>
+    <color name="chip_text">#C9D1D9</color>
+    <color name="button_text">#FFFFFF</color>
+</resources>

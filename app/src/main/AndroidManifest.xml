@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permission ajoutée par YOUSRI Ayoub pour recevoir l'événement de fin de démarrage (BOOT_COMPLETED). -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Receiver statique déclaré par YOUSRI Ayoub.
+             Il écoute l'action BOOT_COMPLETED pour réagir au redémarrage du système. -->
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receiver personnalisé déclaré par YOUSRI Ayoub.
+             Utilisé pour intercepter les intents propres à l'application. -->
+        <receiver android:name=".CustomEventReceiver" android:exported="false" />
+    </application>
+
+</manifest>

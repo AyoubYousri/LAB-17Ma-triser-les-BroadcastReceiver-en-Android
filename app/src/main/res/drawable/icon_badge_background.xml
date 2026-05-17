@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Badge circulaire avec effet brillant par YOUSRI Ayoub -->
+    <gradient
+        android:type="radial"
+        android:gradientRadius="50dp"
+        android:startColor="#E94560"
+        android:endColor="#962D3E" />
+    <stroke android:width="2dp" android:color="#FFFFFF" />
+</shape>
